@@ -1,6 +1,6 @@
 import InfoEntradas from "../common/info/InfoEntradas";
 import InfoSaidas from "../common/info/InfoSaidas";
-import InfoSaldo from "../common/info/infoSaldo";
+import InfoSaldo from "../common/info/InfoSaldo";
 
 export default function InfoLayout (){
     return (
