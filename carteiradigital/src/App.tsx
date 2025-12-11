@@ -1,5 +1,5 @@
 import {Routes , Route} from 'react-router-dom'
-import PainelPrincipal from './routers/painelPrincipal'
+import PainelPrincipal from './routers/PainelPrincipal'
 
 function App() {
   return (
