@@ -9,7 +9,7 @@ export default function SidebarLayout({ children }: { children: React.ReactNode 
   return (
     <SidebarProvider defaultOpen>
       <SidebarPainel/>
-      <main>
+      <main className="w-full h-screen">
         <SidebarTrigger/>
         {children}
       </main>
