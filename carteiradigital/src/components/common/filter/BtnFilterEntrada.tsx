@@ -1,8 +1,8 @@
 import { textFilter } from "@/utils/textFilter";
 
-export default function BtnFilterEntrada (){
+export default function BtnFilterEntrada ({active, setFilter}:any){
     return ( 
-        <button className={`${textFilter.normal}`}>
+        <button onClick={setFilter} className={`${active ? textFilter.active : textFilter.normal} ${active ? 'hover:bg-gray-100' : 'hover:bg-gray-300'} transition-colors duration-200`}>
             Entradas
         </button>
     )
