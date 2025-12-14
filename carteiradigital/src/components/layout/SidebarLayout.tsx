@@ -9,7 +9,7 @@ export default function SidebarLayout({ children }: { children: React.ReactNode 
   return (
     <SidebarProvider defaultOpen>
       <SidebarPainel/>
-      <main className="w-full h-screen bg-gray-100">
+      <main className="font-sans antialiased w-full h-screen bg-gray-100">
         <SidebarTrigger/>
         {children}
       </main>
